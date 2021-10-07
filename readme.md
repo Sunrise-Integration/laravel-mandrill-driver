@@ -4,8 +4,10 @@ This package re-enables Mandrill driver functionality using the Mail facade in L
 
 To install the package in your project, you need to require the package via Composer:
 
+forked from `therobfonz/laravel-mandrill-driver`
+
 ```bash
-composer require therobfonz/laravel-mandrill-driver
+composer require sunriseintegration/laravel-mandrill-driver
 ```
 
 To add your Mandrill secret key, add the following lines to `config\services.php` and set `MANDRILL_KEY` in your env:
